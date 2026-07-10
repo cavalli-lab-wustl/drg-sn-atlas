@@ -1,0 +1,26 @@
+# R session
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Large objects & generated outputs (not tracked)
+*.RDS
+*.rds
+*.h5
+*.h5ad
+*.loom
+r_objects/
+plots/
+markers/
+results/
+
+# renv library
+renv/library/
+renv/staging/
+renv/python/
+
+# OS cruft
+.DS_Store
+Thumbs.db
